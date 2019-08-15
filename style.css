@@ -1,0 +1,110 @@
+<style>* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    position: relative;
+    margin-top: 6em;
+    border-radius: 10px;
+    padding: 5px;
+    border: 3px solid black;
+    width: 520px;
+    height: 320px;
+    padding: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+
+.details {
+    float: left;
+    padding: 8px;
+}
+
+.photo {
+    float: right;
+}
+
+.image-photo {
+    border-radius: 7px;
+    height: 160px;
+    width: 150px;
+    background-color: lightskyblue;
+}
+
+p {
+    /* font-size: 12px; */
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    overflow: auto;
+}
+
+.small-avatar {
+    float: left;
+    width: 70px;
+    background-color: lightskyblue;
+    border-radius: 3px;
+}
+
+.logo {
+    float: right;
+    height: 70px;
+    width: 70px;
+
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+.intro-text {
+    margin-left: 25px;
+    float: left;
+}
+
+.red-line {
+    border-bottom: 5px solid lightcoral;
+    margin: 10px 0 10px 0;
+}
+
+.bar-code {
+    position: absolute;
+    bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Libre Barcode 39';
+    font-size: 39px;
+}
+
+.details>p>span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.details>p {
+
+    margin-bottom: 10px;
+}
+
+.text-capitalize {
+    text-transform: uppercase;
+}
+
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
