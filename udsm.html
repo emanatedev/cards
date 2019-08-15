@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Card | Home</title>
+    <link href='https://fonts.googleapis.com/css?family=Libre Barcode 39' rel='stylesheet'>
+    <style>
+        <style>* {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .card {
+            position: relative;
+            margin-top: 6em;
+            border-radius: 10px;
+            padding: 5px;
+            border: 3px solid black;
+            width: 520px;
+            height: 320px;
+            padding: 8px;
+            margin-right: auto;
+            margin-left: auto;
+            overflow: auto;
+        }
+
+        .details {
+            float: left;
+            padding: 8px;
+        }
+
+        .photo {
+            float: right;
+        }
+
+        .image-photo {
+            border-radius: 10px;
+        }
+
+        p {
+            /* font-size: 12px; */
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        /* UDSM */
+
+
+        .intro {
+            overflow: auto;
+        }
+
+        .small-avatar {
+            float: left;
+            border-radius: 3px;
+        }
+
+        .logo {
+            float: right;
+            height: 70px;
+            width: 70px;
+
+        }
+
+
+        .center {
+            text-align: center;
+        }
+
+
+        .intro-text {
+            margin-left: 25px;
+            float: left;
+        }
+
+        .red-line {
+            border-bottom: 5px solid lightcoral;
+            margin: 10px 0 10px 0;
+        }
+
+        .bar-code {
+            position: absolute;
+            bottom: 0px;
+            margin-right: auto;
+            margin-left: auto;
+            font-family: 'Libre Barcode 39';
+            font-size: 39px;
+        }
+
+        .details>p>span {
+            padding: 5px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+
+        .details>p {
+
+            margin-bottom: 10px;
+        }
+
+        .text-capitalize {
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="card">
+
+        <div class="intro">
+
+            <img class="small-avatar" src="https://via.placeholder.com/70">
+
+            <div class="intro-text center">
+                <p><b>University of Dar es salaam</b></p>
+                <p><i>Advancing in knowlegde, Creating Futures</i></p>
+                <p><b>Student Identity Card</b></p>
+                <p><b>CoICT</b></p>
+
+            </div>
+
+            <img class="logo" src="institution_logo.png">
+        </div>
+
+        <div class="red-line"></div>
+
+        <div class="details">
+
+            <p><span>Programme:</span> Bsc In Computer Science</p>
+            <p><span>Name:</span> JOHN DOE </p>
+            <p><span>Reg#:</span> 2017-04-12345</p>
+            <p><span>Signature</span> abcd</p>
+            <p><span>Exp. date:</span> 30/11/2019</p>
+        </div>
+        <div class="photo">
+            <img class="image-photo" src="https://via.placeholder.com/150">
+        </div>
+
+        <div class="bar-code">
+            <p>abcdefghijklmnopqrstuvwxyz</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
