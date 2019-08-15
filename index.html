@@ -5,63 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Card | Home</title>
-
-    <style>
-        *{
-            margin:0;
-            padding: 0;
-        }
-        body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        .card {
-            margin-top: 6em;
-            border-radius: 10px;
-            padding: 5px;
-            background-color: aquamarine;
-            width: 520px;
-            height: 320px;
-            margin-right: auto;
-            margin-left: auto;
-            overflow: auto;
-        }
-
-        .details {
-            float: left;
-        }
-
-        .photo {
-            
-            float: right;
-        }
-        .image-photo{
-            border-radius: 10px;
-        }
-
-        p{
-            
-        }
-    </style>
+    <title>UDSM Card</title>
+    <link href='https://fonts.googleapis.com/css?family=Libre Barcode 39' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-
     <div class="card">
+
+        <div class="intro">
+
+            <img class="small-avatar" src="man.png">
+
+            <div class="intro-text center">
+                <h3><b>University of Dar es salaam</b></h3>
+                <p><i>Advancing in knowlegde, Creating Futures</i></p>
+                <p><b>Student Identity Card</b></p>
+                <p><b>CoICT</b></p>
+
+            </div>
+
+            <img class="logo" src="institution_logo.png">
+        </div>
+        <div class="red-line"></div>
         <div class="details">
-            <p>Name: <b>Alpha Olomi</b></p>
-            <p>Course: CEIT</p>
-            <p>Bio:  Lorem, ipsum dolor.</p>
-            <p>Date: 12 August 2019</p>
+
+            <p><span>Programme:</span> Bsc In Computer Science</p>
+            <p><span>Name:</span> JOHN DOE </p>
+            <p><span>Reg#:</span> 2017-04-12345</p>
+            <p><span>Signature</span> abcd</p>
+            <p><span>Exp. date:</span> 30/11/2019</p>
         </div>
         <div class="photo">
-            <img class="image-photo" src="https://via.placeholder.com/110">
+            <img class="image-photo" src="man.png">
+        </div>
+
+        <div class="bar-code">
+            <p>abcdefghijklmnopqrstuvwxyz</p>
         </div>
     </div>
-
-
 </body>
 
 </html>
