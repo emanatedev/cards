@@ -18,15 +18,30 @@
         }
 
         .card {
+
+            background-position: right top;
+            background-image: url("imgs/world.png");
+            background-attachment: fixed;
+            background-size: 650px 300px;
+            background-repeat: no-repeat;
+
             margin-right: auto;
             margin-left: auto;
-            padding: 12px;
-            /* border: 5px solid tan; */
-            background-color: tan;
+            /* padding: 12px; */
+            border: 1px solid tan;
+            background-color: rgb(255, 159, 71);
             border-radius: 8px;
             width: 530px;
             height: 340px;
-            /* background-image: url("imgs/world.png"); */
+            overflow: hidden;
+
+        }
+
+        .card-transparent {
+            padding: 12px;
+            background: linear-gradient(to bottom right, #ffcc99 1%, #ff6600 93%);
+            opacity: 0.9;
+            /* filter: alpha(opacity=50); */
         }
 
 
@@ -34,16 +49,8 @@
             text-transform: uppercase;
         }
 
-        .map {
-
-            background-color: tan;
-
-            background-repeat: no-repeat;
-            background-position: right;
-        }
-
         .equity-logo {
-            background-color: tan;
+            /* background-color: tan; */
             width: 100px;
         }
 
@@ -97,24 +104,31 @@
         .mt-1 {
             margin-top: 1em;
         }
+
         .card-number {
             font-weight: 700;
             font-family: 'Courier New', Courier, monospace;
-            font-size: 30px;
+            font-size: 28px;
         }
 
 
-        .visa-logo{
-            width: 100px;
+        .visa-logo {
+            width: 90px;
             background-color: white;
-            height: 60px;
-        }
-        .row{
-            overflow: auto
+            height: 50px;
         }
 
-        .space{
+        .row {
+            overflow: auto;
+        }
+
+        .space {
             margin-left: 28px;
+        }
+
+        .waves {
+            width: 50px;
+            color: black;
         }
     </style>
 </head>
@@ -123,82 +137,82 @@
 
 
     <div class="card">
-        <div class="map"></div>
+        <div class="card-transparent">
 
-        <div class="logo">
-            <img class="equity-logo" src="./imgs/equity_logo.png" alt="equity logo">
-        </div>
+            <div class="logo">
+                <img class="equity-logo" src="./imgs/equity_logo.png" alt="equity logo">
+            </div>
 
-        <div style="overflow: auto">
+            <div style="overflow: auto">
 
-            <div class="col left mt-3 ml-3">
-                <div class="chip"></div>
+                <div class="col left mt-3 ml-3">
+                    <div class="chip"></div>
 
-                <div class="direction-icon">
-                    <img src="icon.png" alt="">
+                    <div class="direction-icon">
+                        <img src="icon.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="col right">
+                    <div class="visa-paywave">
+                        <p>Visa</p>
+                        <p>payWave</p>
+                        <img class="waves right" src="./imgs/waves.png" alt="">
+                    </div>
                 </div>
             </div>
 
 
-            <div class="col right">
-                <div class="visa-paywave">
-                    <p>Visa</p>
-                    <p>payWave</p>
-                    <img src="speaker.jpg" alt="">
+            <div class="ml-3">
+
+                <div class="card-number">
+                    4703 <span class="space"></span>
+                    5600 <span class="space"></span>
+                    6955 <span class="space"></span>
+                    4348 <span class="space"></span>
+                </div>
+
+
+                <div class="row">
+                    <div class="visa left">
+                        4703
+                    </div>
+
+
+                    <div class="valid left ml-3">
+                        <small>Valid <br> Thru</small>
+
+                    </div>
+
+
+                    <div class="ml-1 left">
+                        <small>Month/Year</small> <br>
+                        07/20
+                    </div>
+
+
+                    <div class="visa-electron right">
+
+                        <img class="visa-logo" src="./imgs/visa-logo.png" alt="">
+                        <p style="text-align: right">Electron</p>
+                    </div>
+
+
+
                 </div>
             </div>
-        </div>
 
-
-        <div class="ml-3">
-
-            <div class="card-number">
-                4703 <span class="space"></span>
-                5600 <span class="space"></span>
-                6955 <span class="space"></span>
-                4348 <span class="space"></span>
+            <div class="details ml-3">
+                <p class="name text-upper-case">
+                    <b>john doe</b>
+                </p>
+                <p class="account-number">
+                    <b>3002111505127</b>
+                </p>
             </div>
-
-
-            <div class="row">
-                <div class="visa left">
-                    4703
-                </div>
-
-
-                <div class="valid left ml-3">
-                    <small>Valid <br> Thru</small>
-
-                </div>
-
-
-                <div class="ml-1 left">
-                    <small>Month/Year</small> <br>
-                    07/20
-                </div>
-
-
-                <div class="visa-electron right">
-
-                    <img  class="visa-logo" src="./imgs/visa-logo.png" alt="">
-                    <p style="text-align: right">Electron</p>
-                </div>
-
-
-
-            </div>
-        </div>
-
-        <div class="details ml-3">
-            <p class="name text-upper-case">
-                <b>john doe</b>
-            </p>
-            <p class="account-number">
-                <b>3002111505127</b>
-            </p>
         </div>
     </div>
-
 
 </body>
 
