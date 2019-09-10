@@ -1,4 +1,4 @@
-<style>* {
+* {
     margin: 0;
     padding: 0;
 }
@@ -110,7 +110,7 @@ h3 {
 }
 
 
-.signature{
+.signature {
     font-family: 'Sacramento', cursive;
-    font-size:22px;
+    font-size: 22px;
 }

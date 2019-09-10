@@ -6,154 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Equity Visa Card</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            margin-top: 60px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        .card {
-
-            background-position: right top;
-            background-image: url("imgs/world.png");
-            background-attachment: fixed;
-            background-size: 650px 300px;
-            background-repeat: no-repeat;
-
-            margin-right: auto;
-            margin-left: auto;
-            /* padding: 12px; */
-            border: 1px solid tan;
-            background-color: rgb(255, 159, 71);
-            border-radius: 8px;
-            width: 530px;
-            height: 340px;
-            overflow: hidden;
-
-        }
-
-        .card-transparent {
-            padding: 12px;
-            background: linear-gradient(to bottom right, #ffcc99 1%, #ff6600 93%);
-            opacity: 0.9;
-            /* filter: alpha(opacity=50); */
-        }
-
-
-        .text-upper-case {
-            text-transform: uppercase;
-        }
-
-        .equity-logo {
-            /* background-color: tan; */
-            width: 100px;
-        }
-
-        .col {
-            width: 30%;
-        }
-
-        .left {
-            float: left;
-        }
-
-        .right {
-            float: right;
-        }
-
-
-        .chip {
-            height: 60px;
-            width: 60px;
-            background-color: goldenrod;
-            border: 1px solid black;
-            border-radius: 5px;
-        }
-
-
-        .mt-3 {
-            margin-top: 3em;
-        }
-
-        .ml-3 {
-            margin-left: 3em;
-        }
-
-
-        .ml-2 {
-            margin-left: 2em;
-        }
-
-
-        .ml-1 {
-            margin-left: 1em;
-        }
-
-
-
-        .mt-2 {
-            margin-top: 2em;
-        }
-
-
-        .mt-1 {
-            margin-top: 1em;
-        }
-
-        .card-number {
-            font-weight: 700;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 28px;
-        }
-
-
-        .visa-logo {
-            width: 90px;
-            background-color: white;
-            height: 50px;
-        }
-
-        .row {
-            overflow: auto;
-        }
-
-        .space {
-            margin-left: 28px;
-        }
-
-        .waves {
-            width: 50px;
-            color: black;
-        }
-    </style>
+    <link rel="stylesheet" href="css/equity.css">
 </head>
 
 <body>
-
-
     <div class="card">
         <div class="card-transparent">
-
             <div class="logo">
                 <img class="equity-logo" src="./imgs/equity_logo.png" alt="equity logo">
             </div>
-
             <div style="overflow: auto">
-
                 <div class="col left mt-3 ml-3">
                     <div class="chip"></div>
-
                     <div class="direction-icon">
                         <img src="icon.png" alt="">
                     </div>
                 </div>
-
-
                 <div class="col right">
                     <div class="visa-paywave">
                         <p>Visa</p>
@@ -162,47 +30,30 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="ml-3">
-
                 <div class="card-number">
                     4703 <span class="space"></span>
                     5600 <span class="space"></span>
                     6955 <span class="space"></span>
                     4348 <span class="space"></span>
                 </div>
-
-
                 <div class="row">
                     <div class="visa left">
                         4703
                     </div>
-
-
                     <div class="valid left ml-3">
                         <small>Valid <br> Thru</small>
-
                     </div>
-
-
                     <div class="ml-1 left">
                         <small>Month/Year</small> <br>
                         07/20
                     </div>
-
-
                     <div class="visa-electron right">
-
                         <img class="visa-logo" src="./imgs/visa-logo.png" alt="">
                         <p style="text-align: right">Electron</p>
                     </div>
-
-
-
                 </div>
             </div>
-
             <div class="details ml-3">
                 <p class="name text-upper-case">
                     <b>john doe</b>

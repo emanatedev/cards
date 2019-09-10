@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+
+    background-position: right top;
+    background-image: url("imgs/world.png");
+    background-attachment: fixed;
+    background-size: 650px 300px;
+    background-repeat: no-repeat;
+
+    margin-right: auto;
+    margin-left: auto;
+    /* padding: 12px; */
+    border: 1px solid tan;
+    background-color: rgb(255, 159, 71);
+    border-radius: 8px;
+    width: 530px;
+    height: 340px;
+    overflow: hidden;
+
+}
+
+.card-transparent {
+    padding: 12px;
+    background: linear-gradient(to bottom right, #ffcc99 1%, #ff6600 93%);
+    opacity: 0.9;
+    /* filter: alpha(opacity=50); */
+}
+
+
+.text-upper-case {
+    text-transform: uppercase;
+}
+
+.equity-logo {
+    /* background-color: tan; */
+    width: 100px;
+}
+
+.col {
+    width: 30%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+.chip {
+    height: 60px;
+    width: 60px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.mt-3 {
+    margin-top: 3em;
+}
+
+.ml-3 {
+    margin-left: 3em;
+}
+
+
+.ml-2 {
+    margin-left: 2em;
+}
+
+
+.ml-1 {
+    margin-left: 1em;
+}
+
+
+
+.mt-2 {
+    margin-top: 2em;
+}
+
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+.card-number {
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+}
+
+
+.visa-logo {
+    width: 90px;
+    background-color: white;
+    height: 50px;
+}
+
+.row {
+    overflow: auto;
+}
+
+.space {
+    margin-left: 28px;
+}
+
+.waves {
+    width: 50px;
+    color: black;
+}
