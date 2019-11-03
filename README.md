@@ -1,7 +1,8 @@
-<h1 align="center">Cards 🃏💳</h1>
-<p align="center">A simple collection of responsive cards made using Vanilla CSS. Made with ❤️.</p>
-
-Check it out at [https://cards.io](https://cards.io)  
+<h1 align="center">cards</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/made%20in-tanzania-green?style=for-the-badge" alt="made in tanzania">
+</p>
+<p align="center">A simple collection of responsive cards made using Vanilla CSS</p>
 
 ## Cards
 - [UDSM Student Identity Cards](https://alphaolomi.github.io/cards/udsm)
